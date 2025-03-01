@@ -1,5 +1,4 @@
-Django==4.1.5
-asgiref==3.6.0
-sqlparse==0.4.3
-gunicorn  # Required for deployment
-whitenoise  # If using static files in production
+Django==4.2.19
+gunicorn
+whitenoise
+gunicorn
