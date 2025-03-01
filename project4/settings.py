@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "network-social-ddiu.onrender.com", 
     "127.0.0.1", 
-    "localhost"
+    "localhost",
+     "0.0.0.0"
 ]
 
 
