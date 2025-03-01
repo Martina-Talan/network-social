@@ -1,0 +1,78 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+<h3 class="title">{{ user }}'s Profile</h3>
+
+<p class="following">Followers: <strong>{{ followers_count }}</strong></p>
+<p class="following">Following: <strong>{{ following_count }}</strong></p>
+
+
+{% if user != request.user %}
+    {% if is_following %}
+        <form method="post" action="{% url 'unfollow_user' user.id %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger following">Unfollow</button>
+        </form>
+    {% else %}
+        <form method="post" action="{% url 'follow_user' user.id %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary following">Follow</button>
+        </form>
+    
+    {% endif %}
+{% endif %}
+
+
+{% for post in page %}
+<div class="container">
+     <div class="post" data-post-id="{{ post.id }}">
+          <h3><strong>{{ post.posted_by }}</strong></h3>
+          <h5 class="post-content" data-post-id="{{ post.id }}">{{ post.post }}</h5>
+          <h6><small>{{ post.timestamp }}</small></h6>
+          <span class="likes" data-post-id="{{ post.id }}">{{ post.likes.count }} <i class="fa fa-thumbs-up"></i>Like(s)</span> <br>
+    {% if user.is_authenticated %}
+           {% if request.user == user %}
+              <button class="btn btn-info edit-button" data-post-id="{{ post.id }}">Edit</button>
+              <div class="edit">
+                   <form class="edit-form" style="display: none;">
+                         <textarea class="edit-textarea" name="post_content" data-post-id="{{ post.id }}"></textarea><br>
+                         <button type="submit" class="btn btn-info save-button" data-post-id="{{ post.id }}">Save</button>
+                    </form>
+              </div>
+            {% else %}
+                {% if user in post.likes.all %}
+                     <button class="btn btn-primary unlike-button" data-post-id="{{ post.id }}" data-action="unlike">Unlike</button>
+                     <button class="btn btn-primary like-button" data-post-id="{{ post.id }}" data-action="like" style="display:none">Like</button>
+                {% else %}
+                     <button class="btn btn-primary unlike-button" data-post-id="{{ post.id }}" data-action="unlike" style="display:none">Unlike</button>
+                     <button class="btn btn-primary like-button" data-post-id="{{ post.id }}" data-action="like">Like</button>
+                {% endif %}
+            {% endif %}
+    {% endif %}
+    </div>
+</div>
+{% endfor %}
+ 
+
+
+<div class="d-flex justify-content-center">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            {% if page.has_previous %}
+                <li class="page-item"><a class="page-link" href="?page={{ page.previous_page_number }}">Previous</a></li>
+            {% endif %}
+
+            {% for page_num in page.paginator.page_range %}
+                <li class="page-item {% if page_num == page.number %}active{% endif %}">
+                    <a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a>
+                </li>
+            {% endfor %}
+
+            {% if page.has_next %}
+                <li class="page-item"><a class="page-link" href="?page={{ page.next_page_number }}">Next</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+
+{% endblock %}
