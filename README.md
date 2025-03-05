@@ -53,6 +53,19 @@ python manage.py runserver
 ```
 #### Open the app in your browser: http://127.0.0.1:8000/
 
+### 🔗 API Routes
+
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| GET    | `/posts/all` | Fetch all posts in reverse order |
+| GET    | `/posts/following` | Fetch posts from followed users |
+| GET    | `/profile/<username>` | View a user's profile and their posts |
+| POST   | `/posts/new` | Create a new post |
+| PUT    | `/posts/<int:post_id>` | Edit an existing post |
+| PUT    | `/posts/<int:post_id>/like` | Like/unlike a post |
+| POST   | `/follow/<username>` | Follow/unfollow a user |
+
+
 ### 📌 Usage
 1️⃣ Register/Login – Create an account and sign in
 
