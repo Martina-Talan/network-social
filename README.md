@@ -31,5 +31,5 @@ Network is a Django-based social media web application where users can create po
 ```sh
 git clone https://github.com/Martina-Talan/network.git
 cd network
-``h
+```sh
 
