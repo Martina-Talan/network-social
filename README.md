@@ -7,23 +7,23 @@ Network is a Django-based social media web application where users can create po
 
 ### 🚀 Features
 
-**User Authentication** – Register, log in, and log out.  
+**User Authentication** – Register, log in, and log out
 
-**Create Posts** – Users can compose and publish text-based posts.  
+**Create Posts** – Users can compose and publish text-based posts
 
-**All Posts Feed** – View all posts from all users in reverse chronological order.  
+**All Posts Feed** – View all posts from all users in reverse chronological order
 
-**Profile Pages** – View user profiles with follower and following counts.  
+**Profile Pages** – View user profiles with follower and following counts
 
-**Follow/Unfollow Users** – Follow other users to see their posts in your personalized feed.  
+**Follow/Unfollow Users** – Follow other users to see their posts in your personalized feed
 
-**Following Feed** – See posts exclusively from users you follow.  
+**Following Feed** – See posts exclusively from users you follow
 
-**Like & Unlike Posts** – Toggle likes on posts, updated asynchronously.  
+**Like & Unlike Posts** – Toggle likes on posts, updated asynchronously
 
-**Edit Posts** – Edit your own posts without reloading the page.  
+**Edit Posts** – Edit your own posts without reloading the page
 
-**Pagination** – Navigate through posts with "Next" and "Previous" buttons.  
+**Pagination** – Navigate through posts with "Next" and "Previous" buttons
 
 ### 🛠️ Installation & Setup
 
@@ -54,17 +54,29 @@ python manage.py runserver
 #### Open the app in your browser: http://127.0.0.1:8000/
 
 ### 📌 Usage
-1️⃣ Register/Login – Create an account and sign in.
+1️⃣ Register/Login – Create an account and sign in
 
-2️⃣ Create & View Posts – Publish posts and browse content from all users.
+2️⃣ Create & View Posts – Publish posts and browse content from all users
 
-3️⃣ Profile Pages – Click on a username to view their profile, followers, and following.
+3️⃣ Profile Pages – Click on a username to view their profile, followers, and following
 
-4️⃣ Follow Users – Follow/unfollow users and see their posts in the "Following" feed.
+4️⃣ Follow Users – Follow/unfollow users and see their posts in the "Following" feed
 
-5️⃣ Like & Unlike – Interact with posts by toggling likes.
+5️⃣ Like & Unlike – Interact with posts by toggling likes
 
-6️⃣ Edit Posts – Modify your own posts inline without reloading.
+6️⃣ Edit Posts – Modify your own posts inline without reloading
 
-7️⃣ Paginated Feeds – Navigate through posts efficiently.
+7️⃣ Paginated Feeds – Navigate through posts efficiently
+
+### 🛠️ Technologies Used
+Django – Backend framework
+
+JavaScript (ES6) – Dynamic frontend interactions
+
+HTML & CSS – UI structure and styling
+
+Bootstrap – Responsive design
+
+### 🏆 Acknowledgments
+This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
 
