@@ -67,19 +67,19 @@ python manage.py runserver
 
 
 ### 📌 Usage
-1️⃣ Register/Login – Create an account and sign in
+1️⃣ **Register/Login** – Create an account and sign in
 
-2️⃣ Create & View Posts – Publish posts and browse content from all users
+2️⃣ **Create & View Posts** – Publish posts and browse content from all users
 
-3️⃣ Profile Pages – Click on a username to view their profile, followers, and following
+3️⃣ **Profile Pages**– Click on a username to view their profile, followers, and following
 
-4️⃣ Follow Users – Follow/unfollow users and see their posts in the "Following" feed
+4️⃣ **Follow Users** – Follow/unfollow users and see their posts in the "Following" feed
 
-5️⃣ Like & Unlike – Interact with posts by toggling likes
+5️⃣ L**ike & Unlike** – Interact with posts by toggling likes
 
-6️⃣ Edit Posts – Modify your own posts inline without reloading
+6️⃣ **Edit Posts** – Modify your own posts inline without reloading
 
-7️⃣ Paginated Feeds – Navigate through posts efficiently
+7️⃣ **Paginated Feeds** – Navigate through posts efficiently
 
 ### 🛠️ Technologies Used
 - __Django__ – Backend framework
