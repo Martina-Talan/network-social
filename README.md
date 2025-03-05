@@ -7,23 +7,23 @@ Network is a Django-based social media web application where users can create po
 
 ### 🚀 Features
 
-**User Authentication** – Register, log in, and log out
+✅**User Authentication** – Register, log in, and log out
 
-**Create Posts** – Users can compose and publish text-based posts
+✅**Create Posts** – Users can compose and publish text-based posts
 
-**All Posts Feed** – View all posts from all users in reverse chronological order
+✅**All Posts Feed** – View all posts from all users in reverse chronological order
 
-**Profile Pages** – View user profiles with follower and following counts
+✅**Profile Pages** – View user profiles with follower and following counts
 
-**Follow/Unfollow Users** – Follow other users to see their posts in your personalized feed
+✅**Follow/Unfollow Users** – Follow other users to see their posts in your personalized feed
 
-**Following Feed** – See posts exclusively from users you follow
+✅**Following Feed** – See posts exclusively from users you follow
 
-**Like & Unlike Posts** – Toggle likes on posts, updated asynchronously
+✅**Like & Unlike Posts** – Toggle likes on posts, updated asynchronously
 
-**Edit Posts** – Edit your own posts without reloading the page
+✅**Edit Posts** – Edit your own posts without reloading the page
 
-**Pagination** – Navigate through posts with "Next" and "Previous" buttons
+✅**Pagination** – Navigate through posts with "Next" and "Previous" buttons
 
 ### 🛠️ Installation & Setup
 
