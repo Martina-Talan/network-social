@@ -25,10 +25,11 @@ Network is a Django-based social media web application where users can create po
 
 **Pagination** – Navigate through posts with "Next" and "Previous" buttons.  
 
-## 🛠️ Installation & Setup
+### 🛠️ Installation & Setup
 
-### Clone the Repository
+#### Clone the Repository
 ```sh
 git clone https://github.com/Martina-Talan/network.git
 cd network
+``h
 
