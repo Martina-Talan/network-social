@@ -53,3 +53,18 @@ python manage.py runserver
 ```
 #### Open the app in your browser: http://127.0.0.1:8000/
 
+### 📌 Usage
+1️⃣ Register/Login – Create an account and sign in.
+
+2️⃣ Create & View Posts – Publish posts and browse content from all users.
+
+3️⃣ Profile Pages – Click on a username to view their profile, followers, and following.
+
+4️⃣ Follow Users – Follow/unfollow users and see their posts in the "Following" feed.
+
+5️⃣ Like & Unlike – Interact with posts by toggling likes.
+
+6️⃣ Edit Posts – Modify your own posts inline without reloading.
+
+7️⃣ Paginated Feeds – Navigate through posts efficiently.
+
