@@ -69,13 +69,13 @@ python manage.py runserver
 7️⃣ Paginated Feeds – Navigate through posts efficiently
 
 ### 🛠️ Technologies Used
-Django – Backend framework
+- __Django__ – Backend framework
 
-JavaScript (ES6) – Dynamic frontend interactions
+- __JavaScript__  – Dynamic frontend interactions
 
-HTML & CSS – UI structure and styling
+- __HTML & CSS__ – UI structure and styling
 
-Bootstrap – Responsive design
+- __Bootstrap__ – Responsive design
 
 ### 🏆 Acknowledgments
 This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
