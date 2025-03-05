@@ -31,5 +31,25 @@ Network is a Django-based social media web application where users can create po
 ```sh
 git clone https://github.com/Martina-Talan/network.git
 cd network
+```
+
+#### Install Dependencies
 ```sh
+pip install -r requirements.txt
+```
+
+#### Apply Database Migrations
+```sh
+python manage.py makemigrations network
+python manage.py migrate
+```
+#### Create a Superuser (Optional for Admin Access)
+```sh
+python manage.py createsuperuser
+```
+#### Start the Development Server
+```sh
+python manage.py runserver
+```
+#### Open the app in your browser: http://127.0.0.1:8000/
 
