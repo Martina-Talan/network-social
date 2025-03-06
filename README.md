@@ -2,8 +2,12 @@
 
 #### 🔗 Live Demo: []
 
+---
+
 ### 📜 Overview
 Network is a Django-based social media web application where users can create posts, follow others, like posts, and engage with an interactive timeline. The app dynamically updates content using JavaScript to provide a smooth user experience.
+
+---
 
 ### 🚀 Features
 
@@ -24,6 +28,8 @@ Network is a Django-based social media web application where users can create po
 ✅ **Edit Posts** – Edit your own posts without reloading the page
 
 ✅ **Pagination** – Navigate through posts with "Next" and "Previous" buttons
+
+--- 
 
 ### 🛠️ Installation & Setup
 
@@ -51,7 +57,7 @@ python manage.py createsuperuser
 ```sh
 python manage.py runserver
 ```
-#### Open the app in your browser: http://127.0.0.1:8000/
+---
 
 ### 🔗 API Routes
 
@@ -65,21 +71,24 @@ python manage.py runserver
 | PUT    | `/posts/<int:post_id>/like` | Like/unlike a post |
 | POST   | `/follow/<username>` | Follow/unfollow a user |
 
+---
 
 ### 📌 Usage
-1️⃣ **Register/Login** – Create an account and sign in
+✅ **Register/Login** – Create an account and sign in
 
-2️⃣ **Create & View Posts** – Publish posts and browse content from all users
+✅ **Create & View Posts** – Publish posts and browse content from all users
 
-3️⃣ **Profile Pages**– Click on a username to view their profile, followers, and following
+✅ **Profile Pages**– Click on a username to view their profile, followers, and following
 
-4️⃣ **Follow Users** – Follow/unfollow users and see their posts in the "Following" feed
+✅ **Follow Users** – Follow/unfollow users and see their posts in the "Following" feed
 
-5️⃣ L**ike & Unlike** – Interact with posts by toggling likes
+✅ L**ike & Unlike** – Interact with posts by toggling likes
 
-6️⃣ **Edit Posts** – Modify your own posts inline without reloading
+✅ **Edit Posts** – Modify your own posts inline without reloading
 
-7️⃣ **Paginated Feeds** – Navigate through posts efficiently
+✅ **Paginated Feeds** – Navigate through posts efficiently
+
+---
 
 ### 🛠️ Technologies Used
 - __Django__ – Backend framework
@@ -89,6 +98,8 @@ python manage.py runserver
 - __HTML & CSS__ – UI structure and styling
 
 - __Bootstrap__ – Responsive design
+- 
+--- 
 
 ### 🏆 Acknowledgments
 This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
