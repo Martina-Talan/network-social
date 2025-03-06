@@ -98,7 +98,7 @@ python manage.py runserver
 - __HTML & CSS__ – UI structure and styling
 
 - __Bootstrap__ – Responsive design
-- 
+  
 --- 
 
 ### 🏆 Acknowledgments
